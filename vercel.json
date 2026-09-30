@@ -1,0 +1,43 @@
+{
+  "framework": null,
+  "buildCommand": "",
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/data/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/BBMED_Final_Dynamic_Insight_Dashboard.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/BBMED_Final_Dynamic_Insight_Dashboard",
+      "destination": "/",
+      "permanent": true
+    }
+  ]
+}
