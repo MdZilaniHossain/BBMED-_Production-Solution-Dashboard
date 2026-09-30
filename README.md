@@ -9,11 +9,10 @@ The project demonstrates an **end-to-end data analytics workflow**, from raw ope
 ## 📊 Dashboard Preview
 
 <p align="center">
-  <img src="public/dashboard-preview.png"
-       alt="BBMED Dynamic Insight Dashboard"
-       width="85%">
+  <img src="./public/project-architecture.png"
+       alt="BBMED Project Architecture"
+       width="100%">
 </p>
-
 The dashboard provides interactive filtering and operational KPIs across:
 
 - Machine
